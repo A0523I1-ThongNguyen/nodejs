@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <h1> Phiếu Đăng Kí </h1>
+    <head>
+        <title> Phiếu Đăng Kí </title>
+        <link rel="stylesheet" href="bt.css">
+    </head>
+    <style>
+        h1{
+            color: red;
+        }
+    </style>
+    <body>
+        <form action="bt.html">
+        <div>
+                 <label><h3> Họ Và Tên : </h3> </label>
+                  <input class="hoten" name="hoten"  type="text">
+        </div>
+
+        <div>
+            <fieldset>
+               <legend><h3> Giới Tính </h3></legend>
+               <input type="radio" name="gender">Nam
+               <input type="radio" name="gender">Nữ   
+            </fieldset>
+        </div>
+
+        <div>
+            <label><h3> Ngày Sinh </h3></label>
+            <input class="date" type="date"/>
+        </div>
+
+        <div>
+            <label><h3> Điểm </h3></label>
+            <input class="diem" id="diem" type="number" min="0" max="10" step="0.25" />
+        </div>
+
+        <div>
+            <label><h3> Nghề Nghiệp </h3></label>  
+            <input class="job" list="jobs" name="job" id="job"> 
+            <datalist id="jobs">
+                <option value="Ngân Hàng">
+                <option value="Lao Công">
+                <option value="Mua Bán">
+                <option value="Sửa Oto">
+                <option value="Lập Trình Viên">
+            </datalist>
+          </datalist>
+
+        </div>
+
+        <div>
+            <fieldset>
+           <legend> <h3>Sở Thích</h3> </legend>
+        <input type="checkbox" name="nhac">Nghe Nhạc
+        <input type="checkbox" name="phim">Xem Phim
+        <input type="checkbox" name="dulich">Du Lịch
+        <input type="checkbox" name="amthuc">Ẩm Thực
+       </fieldset> 
+        </div>
+
+        <div>
+            <label><h3>Ghi Chú</h3></label>
+            <textarea class="ghichu" name="note" id="note"  rows="10"></textarea>
+        </div>
+
+        <div> 
+            <input class="moi" type="submit" value="Dang ki" />
+            <input class="moi reset" type="reset" value="Nhap Lai">
+
+        </div>
+    </form>
+    </body>
+</html>

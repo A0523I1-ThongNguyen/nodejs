@@ -1,0 +1,32 @@
+.diem {
+    background-color: yellow;
+    width: 1315px;
+}
+h1{
+    color: red;
+}
+.ghichu
+{
+    width: 40%;
+}
+.hoten
+{
+    width: 1315px;
+}
+.moi
+{
+    color: red;
+    border: 1px solid royalblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;   
+}
+.moi.reset {
+    margin-left: 15px;
+}
+.date{
+    width: 1315px;
+}
+.job{
+    width: 1315px;
+}
